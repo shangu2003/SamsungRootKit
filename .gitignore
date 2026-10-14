@@ -1,0 +1,12 @@
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+*.bak
+*.bak_*
+
+# 签名机密：勿提交 / 勿打进源码包
+keystore.properties
+*.jks
+*.keystore

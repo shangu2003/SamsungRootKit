@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SamsungRootKit" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <!-- 保留 Android 系统默认的启动/返回转场（图标放大/缩回）。
+             历史版本曾设 windowAnimationStyle=@null + windowIsTranslucent=true，
+             导致系统默认 launcher 缩放动画被抹除 → 打开/返回都是硬切。现已移除。 -->
+        <!-- 透明窗口背景 — 消除 Activity 重建间隙的黑色底层（语言切换防闪） -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

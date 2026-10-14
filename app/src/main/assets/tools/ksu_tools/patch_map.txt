@@ -1,0 +1,36 @@
+s9180-root-kit 补丁点记录 (b.ne -> nop, 文件偏移 0x)
+定位方式: 二进制反汇编寻找 bl <grku校验>; cmp w0,#1; b.ne <E101错误路径>
+root 两处校验分支跳向同一 E101 错误路径(共享目标特征)。
+
+[131072 组 (dm1q/dm2q/dm3q/q5q)]
+  payload: 0x9480
+  root   : 0x22bc, 0x2304
+
+[104128 组 (e1q/e2q)]
+  payload: 0xaf60
+  root   : 0x22bc, 0x2304
+
+[104128 组 (e3q-S9280ZCS6DZF2)]
+  payload: 0xb300
+  root   : 0x22bc, 0x2304
+
+[104128 组 (e3q-ZHS6DZF2/U1UE)]
+  payload: 0xb110
+  root   : 0x22bc, 0x2304
+
+[41430 组 (pa1q/pa2q/pa3q/psq/q7q)]
+  payload: 0x88d8
+  root   : 0x22c4, 0x230c
+
+[41414 组 (pa3q-ZCU1AYA5/5AYHA/ZHU1AYA1)]
+  payload: 0x88c8
+  root   : 0x22c4, 0x230c
+
+[42054 组 (pa3q-S938USQS8BYLX)]
+  payload: 0x8b4c
+  root   : 0x22c4, 0x230c
+
+[96022 组 (pa3q-S938BXXS9CZE1)]
+  payload: 无 grku 校验
+  root   : 0x22c4, 0x230c
+

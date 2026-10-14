@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Shizuku permission -->
+    <uses-permission android:name="moe.shizuku.manager.permission.API_V23" />
+
+    <!-- 检测 Wi-Fi 是否已连接网络（用于引导无线调试前提示先连 WLAN） -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <!-- For installing KernelSU Manager APK -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <!-- round35：开机自启发现缺管理器时发提醒通知（API 33+ 需运行时授权，
+         由 DfManagerInstaller.requestNotificationPermissionIfNeeded 在用户打开
+         「DFRoot 开机自启」时申请；未授权时提醒静默跳过，不影响跑链）。 -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!-- ★ df（DFRoot，round24 起为内嵌能力）**必需**：DirtyFrag 链要用 loopback UDP 收发
+         伪造 ESP 包（exp.c 的 socket(AF_INET, SOCK_DGRAM, 0)，以及 Java 侧
+         ExploitRunner 的 new DatagramSocket() / IpSecManager.openUdpEncapsulationSocket）。
+         Android 下 socket(AF_INET/AF_INET6, …) 要求进程持有 AID_INET(gid 3003) 补充组，
+         而该组**只由 INTERNET 权限授予** —— 缺它则 socket() 直接返回 EPERM，表现为
+         「java.net.SocketException: socket failed: EPERM (Operation not permitted)」。
+         df 原独立包的 manifest 里本就有这一条，round24 整合时漏带，导致真机链在
+         「封装端口/SPI 分配成功之后、开始漏洞利用之前」就断掉（rc=3）。 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- df（DFRoot，round24 起为**内嵌能力**，不再是独立 App）的开机自启：
+         接收 LOCKED_BOOT_COMPLETED / BOOT_COMPLETED 后自动跑一次链。
+         WAKE_LOCK 供该路径持 PARTIAL_WAKE_LOCK —— 链可能跑分钟级，
+         期间被休眠会导致「/dev/df 的 O_EXCL 已消费但链未跑完」，本次开机再也拿不到 root。 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- DFReroot **内联入口**的调用权限（2026-10-07 新增）。
+         主页红/蓝按钮经 DFReroot 的 `DfRunService` 内联跑链（**不跳界面**），
+         并把日志经广播回流显示在主页卡片里 —— 两者都要持有本权限：
+           · startService：AMS 按 DFReroot 清单里的 android:permission 强校验调用方；
+           · 接收日志广播：本应用注册接收器时把该权限作为 broadcastPermission，
+             等价于"只收持有它的进程发来的广播"（DFReroot 定义并持有它）。
+         该权限由 DFReroot 侧以 protectionLevel="signature" 定义；两个 APK 共用
+         `srk-release.jks` ⇒ 同签名 ⇒ 系统自动授予，无用户确认弹窗。
+         ★ 三处必须逐字一致：此处、[DfBridge.SERVICE_PERMISSION]、
+           DFReroot 侧 `DfRunService.PERMISSION_CONTROL`。
+           权限**定义方**是 DFReroot；本应用只是 uses（声明先后顺序不影响授予 ——
+           PMS 在任一侧安装/卸载后都会重算全量包的权限授予）。 -->
+    <uses-permission android:name="com.polygraphene.df.reroot.permission.CONTROL" />
+
+    <!-- Query Shizuku package -->
+    <queries>
+        <package android:name="moe.shizuku.privileged.api" />
+        <!-- KernelSU Manager（官方分支）。Android 11+ 包可见性需显式声明，
+             否则 getPackageInfo / getLaunchIntentForPackage 对它的查询会被系统过滤为空，
+             导致状态页误报「未安装」、主页「打开 KernelSU」按钮失效。 -->
+        <package android:name="me.weishu.kernelsu" />
+        <!-- KernelSU-Next 分支：真实包名是 com.rifsxd.ksunext（以包内 KernelSU_Next_v3.3.0_33214.apk
+             的 aapt2 badging 为准），必须按真实包名声明；写成 me.weishu.kernelsu.next 无效
+             （该包名不存在），会导致 Next 已安装却被判「未安装」、「打开管理器」点了没反应。 -->
+        <package android:name="com.rifsxd.ksunext" />
+        <package android:name="me.weishu.kernelsu.debug" />
+        <!-- DFReroot 集成 APK（集成版新增）。同样受包可见性过滤：
+             不声明则 getApplicationInfo("com.polygraphene.df.reroot", 0) 抛异常，
+             DfBridge.isDfInstalled() / isDfActive() 恒为 false → 首页「DFReroot」入口永远显示不可用、
+             设置页也会误报「未安装」。包名必须与 df_reroot.apk 的 applicationId 逐字一致。 -->
+        <package android:name="com.polygraphene.df.reroot" />
+    </queries>
+
+    <application
+        android:name=".RootKitApp"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SamsungRootKit"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true"
+            android:configChanges="orientation|screenSize|keyboardHidden|locale|layoutDirection"
+            android:theme="@style/Theme.SamsungRootKit">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Shizuku provider -->
+        <provider
+            android:name="rikka.shizuku.ShizukuProvider"
+            android:authorities="${applicationId}.shizuku"
+            android:multiprocess="false"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INTERACT_ACROSS_USERS_FULL" />
+
+        <!-- DFReroot 通过它读取本应用**当前生效**的配色（实现"SRK 改配色 → DFReroot 自动跟随"）。
+             只读、无写入路径；authority 用 ${applicationId} 占位符，改包名会自动跟随。
+             访问控制不靠 manifest 权限，而是在 DfThemeProvider.enforceCallerAllowed() 里判：
+             uid 1000(system) 放行，其它 UID 必须与本应用签名一致。 -->
+        <provider
+            android:name=".df.DfThemeProvider"
+            android:authorities="${applicationId}.dftheme"
+            android:exported="true" />
+
+        <!-- df（DFRoot，round24 起内嵌本包）的开机自启接收器。
+             · directBootAware=true —— 要在 LOCKED_BOOT_COMPLETED 就开跑（用户可能尚未解锁），
+               故状态一律存 DE（设备保护）存储，见 DfRootPrefs；
+             · enabled=false —— 默认停用，由 DfRootPrefs.syncBootReceiverComponent 按
+               「总开关 && 自启」派生启用态（改自己的组件零权限、零 su）；
+             · exported=false —— 只有系统会投递这两个受保护广播，无需导出。
+               注意 exported=false **不影响**接收系统广播。 -->
+        <receiver
+            android:name=".dfroot.DfBootReceiver"
+            android:directBootAware="true"
+            android:enabled="false"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- round35：管理器安装通道 ③（PackageInstaller）的**安装回执接收器**。
+             · exported=false —— Intent 已由 DfManagerInstaller.buildStatusIntent 用
+               setPackage(applicationId) 显式限定本包，只可能投到自己；
+             · directBootAware 不开 —— ③ 通道需要前台拉起系统确认窗，锁屏期不参与；
+             · enabled 默认 true —— 它是「回执」，没有状态可派生，常驻开销为零。
+             ★ 少了它，PackageInstaller 的 commit 结果无人接收 ⇒ 永远不知道用户是
+               点了「安装」还是「取消」，也就无法执行「取消 ⇒ 中止本次流程」。 -->
+        <receiver
+            android:name=".dfroot.DfManagerInstallReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.samsung.root.kit.DF_MANAGER_INSTALL_STATUS" />
+            </intent-filter>
+        </receiver>
+
+        <!-- FileProvider for APK install -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+    </application>
+
+</manifest>

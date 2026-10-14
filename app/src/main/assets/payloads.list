@@ -1,0 +1,2158 @@
+{
+  "schemaVersion": 2,
+  "targets": [
+    {
+      "profileId": "S9180_S918U1UES8FZG1",
+      "firmwareVersion": "S918U1UES8FZG1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S23 Ultra",
+      "model": "SM-S918U1",
+      "device": "dm3q",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/S9180_S918U1UES8FZG1/cve-2026-43499",
+        "size": 131072
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android13-5.15-kdp",
+        "size": 6756208,
+        "kmi": "android13-5.15",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "dm3q-S9180ZCS8FZE3",
+      "firmwareVersion": "S9180ZCS8FZE3",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S23 Ultra",
+      "model": "SM-S9180",
+      "device": "dm3q",
+      "buildDisplay": "BP4A.251205.006.S9180ZCS8FZE3",
+      "buildFingerprint": "samsung/dm3qzcx/dm3q:16/BP4A.251205.006/S9180ZCS8FZE3:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/dm3q-S9180ZCS8FZE3/cve-2026-43499",
+        "size": 131072
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android13-5.15-kdp",
+        "size": 6756208,
+        "kmi": "android13-5.15",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "e1q-S9210ZCS6DZF2",
+      "firmwareVersion": "S9210ZCS6DZF2",
+      "compatible": [
+        "S9210ZCS6DZG1"
+      ],
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S24",
+      "model": "SM-S9210",
+      "device": "e1q",
+      "buildDisplay": "BP4A.251205.006.S9210ZCS6DZF2",
+      "buildFingerprint": "samsung/e1qzcx/qssi_64:16/BP4A.251205.006/S9210ZCS6DZF2:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/e1q-S9210ZCS6DZF2/cve-2026-43499",
+        "size": 104128
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android14-6.1-kdp",
+        "size": 4879856,
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "e2q-S9260ZCS6DZF2",
+      "firmwareVersion": "S9260ZCS6DZF2",
+      "compatible": [
+        "S9260ZCS6DZG1",
+        "S9260ZCU5DZDP"
+      ],
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S24+",
+      "model": "SM-S9260",
+      "device": "e2q",
+      "buildDisplay": "BP4A.251205.006.S9260ZCS6DZF2",
+      "buildFingerprint": "samsung/e2qzcx/qssi_64:16/BP4A.251205.006/S9260ZCS6DZF2:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/e2q-S9260ZCS6DZF2/cve-2026-43499",
+        "size": 104128
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android14-6.1-kdp",
+        "size": 4879856,
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "e3q-S9280ZCS6DZF2",
+      "firmwareVersion": "S9280ZCS6DZF2",
+      "compatible": [
+        "S9280ZCS6DZG1",
+        "S9280ZCU5DZDP"
+      ],
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S24 Ultra",
+      "model": "SM-S9280",
+      "device": "e3q",
+      "buildDisplay": "BP4A.251205.006.S9280ZCS6DZF2",
+      "buildFingerprint": "samsung/e3qzcx/qssi_64:16/BP4A.251205.006/S9280ZCS6DZF2:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/e3q-S9280ZCS6DZF2/cve-2026-43499",
+        "size": 104128
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android14-6.1-kdp",
+        "size": 4879856,
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "e3q-S9280ZHS6DZF2",
+      "firmwareVersion": "S9280ZHS6DZF2",
+      "compatible": [
+        "S9280ZHS6DZG1"
+      ],
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S24 Ultra",
+      "model": "SM-S9280",
+      "device": "e3q",
+      "buildDisplay": "BP4A.251205.006.S9280ZHS6DZF2",
+      "buildFingerprint": "samsung/e3qzhx/qssi_64:16/BP4A.251205.006/S9280ZHS6DZF2:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/e3q-S9280ZHS6DZF2/cve-2026-43499",
+        "size": 104128
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android14-6.1-kdp",
+        "size": 4879856,
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "e3q-S928U1UES6DZF2",
+      "firmwareVersion": "S928U1UES6DZF2",
+      "compatible": [
+        "S928USQS6DZF2"
+      ],
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S24 Ultra",
+      "model": "SM-S928U1",
+      "device": "e3q",
+      "buildDisplay": "BP4A.251205.006.S928U1UES6DZF2",
+      "buildFingerprint": "samsung/e3quew/qssi_64:16/BP4A.251205.006/S928U1UES6DZF2:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/e3q-S928U1UES6DZF2/cve-2026-43499",
+        "size": 104128
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android14-6.1-kdp",
+        "size": 4879856,
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "pa1q-S9310ZCSBCZE1",
+      "firmwareVersion": "S9310ZCSBCZE1",
+      "compatible": [
+        "S9310ZCUACZDP"
+      ],
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25",
+      "model": "SM-S9310",
+      "device": "pa1q",
+      "buildDisplay": "BP4A.251205.006.S9310ZCSBCZE1",
+      "buildFingerprint": "samsung/pa1qzcx/qssi_64:16/BP4A.251205.006/S9310ZCSBCZE1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/pa1q-S9310ZCSBCZE1/cve-2026-43499",
+        "size": 41344
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "pa1q-S9310ZCUBCZF1",
+      "firmwareVersion": "S9310ZCUBCZF1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25",
+      "model": "SM-S9310",
+      "device": "pa1q",
+      "buildDisplay": "BP4A.251205.006.S9310ZCUBCZF1",
+      "buildFingerprint": "samsung/pa1qzcx/qssi_64:16/BP4A.251205.006/S9310ZCUBCZF1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/pa1q-S9310ZCUBCZF1/cve-2026-43499",
+        "size": 41344
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "pa1q-S9310ZCSCCZG1",
+      "firmwareVersion": "S9310ZCSCCZG1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25",
+      "model": "SM-S9310",
+      "device": "pa1q",
+      "buildDisplay": "BP4A.251205.006.S9310ZCSCCZG1",
+      "buildFingerprint": "samsung/pa1qzcx/qssi_64:16/BP4A.251205.006/S9310ZCSCCZG1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/pa1q-S9310ZCSCCZG1/cve-2026-43499",
+        "size": 41430
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "pa1q-S9310ZHSCCZG1",
+      "firmwareVersion": "S9310ZHSCCZG1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25",
+      "model": "SM-S9310",
+      "device": "pa1q",
+      "buildDisplay": "BP4A.251205.006.S9310ZHSCCZG1",
+      "buildFingerprint": "samsung/pa1qzhx/qssi_64:16/BP4A.251205.006/S9310ZHSCCZG1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/pa1q-S9310ZHSCCZG1/cve-2026-43499",
+        "size": 41344
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "pa2q-S9360ZCUBCZF1",
+      "firmwareVersion": "S9360ZCUBCZF1",
+      "compatible": [
+        "S9360ZCSCCZG1"
+      ],
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25+",
+      "model": "SM-S9360",
+      "device": "pa2q",
+      "buildDisplay": "BP4A.251205.006.S9360ZCUBCZF1",
+      "buildFingerprint": "samsung/pa2qzcx/qssi_64:16/BP4A.251205.006/S9360ZCUBCZF1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/pa2q-S9360ZCUBCZF1/cve-2026-43499",
+        "size": 41344
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "pa3q-S9380ZCS7BYL1",
+      "firmwareVersion": "S9380ZCS7BYL1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25 Ultra",
+      "model": "SM-S9380",
+      "device": "pa3q",
+      "buildDisplay": "BP2A.250605.031.A3.S9380ZCS7BYL1",
+      "buildFingerprint": "samsung/pa3qzcx/qssi_64:16/BP2A.250605.031.A3/S9380ZCS7BYL1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/pa3q-S9380ZCS7BYL1/cve-2026-43499",
+        "size": 41344
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "pa3q-S9380ZCS8BZA1",
+      "firmwareVersion": "S9380ZCS8BZA1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25 Ultra",
+      "model": "SM-S9380",
+      "device": "pa3q",
+      "buildDisplay": "BP4A.251205.006.S9380ZCS8BZA1",
+      "buildFingerprint": "samsung/pa3qzhx/pa3q:16/BP4A.251205.006/S9380ZCS8BZA1_OZSBBZA1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/pa3q-S9380ZCS8BZA1/cve-2026-43499",
+        "size": 41344
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "pa3q-S9380ZCS9BZB2",
+      "firmwareVersion": "S9380ZCS9BZB2",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25 Ultra",
+      "model": "SM-S9380",
+      "device": "pa3q",
+      "buildDisplay": "BP2A.250605.031.A3.S9380ZCS9BZB2",
+      "buildFingerprint": "samsung/pa3qzcx/qssi_64:16/BP2A.250605.031.A3/S9380ZCS9BZB2:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/pa3q-S9380ZCS9BZB2/cve-2026-43499",
+        "size": 41344
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "pa3q-S9380ZCS9BZC1",
+      "firmwareVersion": "S9380ZCS9BZC1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25 Ultra",
+      "model": "SM-S9380",
+      "device": "pa3q",
+      "buildDisplay": "BP2A.250605.031.A3.S9380ZCS9BZC1",
+      "buildFingerprint": "samsung/pa3qzcx/qssi_64:16/BP2A.250605.031.A3/S9380ZCS9BZC1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/pa3q-S9380ZCS9BZC1/cve-2026-43499",
+        "size": 41344
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "pa3q-S9380ZCSABZD1",
+      "firmwareVersion": "S9380ZCSABZD1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25 Ultra",
+      "model": "SM-S9380",
+      "device": "pa3q",
+      "buildDisplay": "BP2A.250605.031.A3.S9380ZCSABZD1",
+      "buildFingerprint": "samsung/pa3qzcx/pa3q:16/BP2A.250605.031.A3/S9380ZCSABZD1_CHCABZD1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/pa3q-S9380ZCSABZD1/cve-2026-43499",
+        "size": 41344
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "pa3q-S9380ZCSCCZG1",
+      "firmwareVersion": "S9380ZCSCCZG1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25 Ultra",
+      "model": "SM-S9380",
+      "device": "pa3q",
+      "buildDisplay": "BP4A.251205.006.S9380ZCSCCZG1",
+      "buildFingerprint": "samsung/pa3qzcx/qssi_64:16/BP4A.251205.006/S9380ZCSCCZG1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/pa3q-S9380ZCSCCZG1/cve-2026-43499",
+        "size": 41344
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "pa3q-S9380ZCU1AYA5",
+      "firmwareVersion": "S9380ZCU1AYA5",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25 Ultra",
+      "model": "SM-S9380",
+      "device": "pa3q",
+      "buildDisplay": "AP3A.240905.015.A2.S9380ZCU1AYA5",
+      "buildFingerprint": "samsung/pa3qzcx/qssi_64:15/AP3A.240905.015.A2/S9380ZCU1AYA5:user/release-keys",
+      "sdk": 35,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/pa3q-S9380ZCU1AYA5/cve-2026-43499",
+        "size": 41328
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "pa3q-S9380ZCU5BYI3",
+      "firmwareVersion": "S9380ZCU5BYI3",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25 Ultra",
+      "model": "SM-S9380",
+      "device": "pa3q",
+      "buildDisplay": "AP3A.240905.015.S9380ZCU5BYI3",
+      "buildFingerprint": "samsung/pa3qzhx/pa3q:15/AP3A.240905.015/S9380ZCU5BYI3_OZSBBYI3:user/release-keys",
+      "sdk": 35,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/pa3q-S9380ZCU5BYI3/cve-2026-43499",
+        "size": 41344
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "pa3q-S9380ZCUACZDP",
+      "firmwareVersion": "S9380ZCUACZDP",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25 Ultra",
+      "model": "SM-S9380",
+      "device": "pa3q",
+      "buildDisplay": "BP4A.251205.006.S9380ZCUACZDP",
+      "buildFingerprint": "samsung/pa3qzcx/qssi_64:16/BP4A.251205.006/S9380ZCUACZDP:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/pa3q-S9380ZCUACZDP/cve-2026-43499",
+        "size": 41344
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "pa3q-S9380ZCUBCZF1",
+      "firmwareVersion": "S9380ZCUBCZF1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25 Ultra",
+      "model": "SM-S9380",
+      "device": "pa3q",
+      "buildDisplay": "BP4A.251205.006.S9380ZCUBCZF1",
+      "buildFingerprint": "samsung/pa3qzhx/pa3q:16/BP4A.251205.006/S9380ZCUBCZF1_OZSBCZF1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/pa3q-S9380ZCUBCZF1/cve-2026-43499",
+        "size": 41344
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "pa3q-S9380ZHSBCZE1",
+      "firmwareVersion": "S9380ZHSBCZE1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25 Ultra",
+      "model": "SM-S9380",
+      "device": "pa3q",
+      "buildDisplay": "BP4A.251205.006.S9380ZHSBCZE1",
+      "buildFingerprint": "samsung/pa3qzhx/qssi_64:16/BP4A.251205.006/S9380ZHSBCZE1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/pa3q-S9380ZHSBCZE1/cve-2026-43499",
+        "size": 41344
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "pa3q-S9380ZHU1AYA1",
+      "firmwareVersion": "S9380ZHU1AYA1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25 Ultra",
+      "model": "SM-S9380",
+      "device": "pa3q",
+      "buildDisplay": "AP3A.240905.015.A2.S9380ZHU1AYA1",
+      "buildFingerprint": "samsung/pa3qzhx/qssi_64:15/AP3A.240905.015.A2/S9380ZHU1AYA1:user/release-keys",
+      "sdk": 35,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/pa3q-S9380ZHU1AYA1/cve-2026-43499",
+        "size": 41328
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "pa3q-S9380ZHUBCZF1",
+      "firmwareVersion": "S9380ZHUBCZF1",
+      "compatible": [
+        "S9380ZHSCCZG1"
+      ],
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25 Ultra",
+      "model": "SM-S9380",
+      "device": "pa3q",
+      "buildDisplay": "BP4A.251205.006.S9380ZHUBCZF1",
+      "buildFingerprint": "samsung/pa3qzhx/pa3q:16/BP4A.251205.006/S9380ZHUBCZF1_OZSBCZF1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/pa3q-S9380ZHUBCZF1/cve-2026-43499",
+        "size": 41344
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "pa3q-S938BXXS9CZE1",
+      "firmwareVersion": "S938BXXS9CZE1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25 Ultra",
+      "model": "SM-S938B",
+      "device": "pa3q",
+      "buildDisplay": "BP4A.251205.006.S938BXXS9CZE1",
+      "buildFingerprint": null,
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/pa3q-S938BXXS9CZE1/cve-2026-43499",
+        "size": 95936
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "pa3q-S938USQS8BYLX",
+      "firmwareVersion": "S938USQS8BYLX",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25 Ultra",
+      "model": "SM-S938U",
+      "device": "pa3q",
+      "buildDisplay": "BP2A.250605.031.A3.S938USQS8BYLX",
+      "buildFingerprint": "samsung/pa3qsqw/qssi_64:16/BP2A.250605.031.A3/S938USQS8BYLX:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/pa3q-S938USQS8BYLX/cve-2026-43499",
+        "size": 41968
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "pa3q-S938USQU5BYI3",
+      "firmwareVersion": "S938USQU5BYI3",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25 Ultra",
+      "model": "SM-S938U",
+      "device": "pa3q",
+      "buildDisplay": "BP2A.250605.031.A3.S938USQU5BYI3",
+      "buildFingerprint": "samsung/pa3qsqw/qssi_64:16/BP2A.250605.031.A3/S938USQU5BYI3:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/pa3q-S938USQU5BYI3/cve-2026-43499",
+        "size": 41344
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "psq-S9370ZCU7CZDP",
+      "firmwareVersion": "S9370ZCU7CZDP",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25 Edge",
+      "model": "SM-S9370",
+      "device": "psq",
+      "buildDisplay": "BP4A.251205.006.S9370ZCU7CZDP",
+      "buildFingerprint": "samsung/psqzcx/qssi_64:16/BP4A.251205.006/S9370ZCU7CZDP:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/psq-S9370ZCU7CZDP/cve-2026-43499",
+        "size": 41344
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "psq-S9370ZCU8CZF1",
+      "firmwareVersion": "S9370ZCU8CZF1",
+      "compatible": [
+        "S9370ZCS9CZG1"
+      ],
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25 Edge",
+      "model": "SM-S9370",
+      "device": "psq",
+      "buildDisplay": "BP4A.251205.006.S9370ZCU8CZF1",
+      "buildFingerprint": "samsung/psqzcx/qssi_64:16/BP4A.251205.006/S9370ZCU8CZF1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/psq-S9370ZCU8CZF1/cve-2026-43499",
+        "size": 41344
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "q7q-F9660ZCU9BZDP",
+      "firmwareVersion": "F9660ZCU9BZDP",
+      "compatible": [
+        "F9660ZCSABZE3"
+      ],
+      "manufacturer": "samsung",
+      "modelName": "Galaxy Z Fold7",
+      "model": "SM-F9660",
+      "device": "q7q",
+      "buildDisplay": "BP4A.251205.006.F9660ZCU9BZDP",
+      "buildFingerprint": "samsung/q7qzcx/qssi_64:16/BP4A.251205.006/F9660ZCU9BZDP:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/q7q-F9660ZCU9BZDP/cve-2026-43499",
+        "size": 41344
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "q7q-F9660ZCUABZF1",
+      "firmwareVersion": "F9660ZCUABZF1",
+      "compatible": [
+        "F9660ZCSBBZG3"
+      ],
+      "manufacturer": "samsung",
+      "modelName": "Galaxy Z Fold7",
+      "model": "SM-F9660",
+      "device": "q7q",
+      "buildDisplay": "BP4A.251205.006.F9660ZCUABZF1",
+      "buildFingerprint": "samsung/q7qzcx/qssi_64:16/BP4A.251205.006/F9660ZCUABZF1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/q7q-F9660ZCUABZF1/cve-2026-43499",
+        "size": 41344
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "q7q-F966BXXUABZF1",
+      "firmwareVersion": "F966BXXUABZF1",
+      "compatible": [
+        "F966BXXSBBZG3"
+      ],
+      "manufacturer": "samsung",
+      "modelName": "Galaxy Z Fold7",
+      "model": "SM-F966B",
+      "device": "q7q",
+      "buildDisplay": "BP4A.251205.006.F966BXXUABZF1",
+      "buildFingerprint": "samsung/q7qxxx/qssi_64:16/BP4A.251205.006/F966BXXUABZF1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/q7q-F966BXXUABZF1/cve-2026-43499",
+        "size": 41344
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "q7q-F966U1UES8AZC1",
+      "firmwareVersion": "F966U1UES8AZC1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy Z Fold7",
+      "model": "SM-F966U1",
+      "device": "q7q",
+      "buildDisplay": "BP2A.250605.031.A3.F966U1UES8AZC1",
+      "buildFingerprint": "samsung/q7quew/qssi_64:16/BP2A.250605.031.A3/F966U1UES8AZC1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/q7q-F966U1UES8AZC1/cve-2026-43499",
+        "size": 41344
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "e1q-S9210ZCU4BYH7",
+      "firmwareVersion": "S9210ZCU4BYH7",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S24",
+      "model": "SM-S9210",
+      "device": "e1q",
+      "buildDisplay": "AP3A.240905.015.A2.S9210ZCU4BYH7",
+      "buildFingerprint": "samsung/e1qzcx/qssi_64:15/AP3A.240905.015.A2/S9210ZCU4BYH7:user/release-keys",
+      "sdk": 35,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "未测试",
+      "exploit": {
+        "url": "grku://payload/e1q-S9210ZCU4BYH7/cve-2026-43499",
+        "size": 104128
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android14-6.1-kdp",
+        "size": 4879856,
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "pa3q-S9380ZCS6BYJ2",
+      "firmwareVersion": "S9380ZCS6BYJ2",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25 Ultra",
+      "model": "SM-S9380",
+      "device": "pa3q",
+      "buildDisplay": "BP2A.250605.031.A3.S9380ZCS6BYJ2",
+      "buildFingerprint": "samsung/pa3qzcx/qssi_64:16/BP2A.250605.031.A3/S9380ZCS6BYJ2:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "未测试",
+      "exploit": {
+        "url": "grku://payload/pa3q-S9380ZCS6BYJ2/cve-2026-43499",
+        "size": 41344
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "pa3q-S9380ZCSBCZE1",
+      "firmwareVersion": "S9380ZCSBCZE1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25 Ultra",
+      "model": "SM-S9380",
+      "device": "pa3q",
+      "buildDisplay": "BP4A.251205.006.S9380ZCSBCZE1",
+      "buildFingerprint": "samsung/pa3qzcx/qssi_64:16/BP4A.251205.006/S9380ZCSBCZE1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "未测试",
+      "exploit": {
+        "url": "grku://payload/pa3q-S9380ZCSBCZE1/cve-2026-43499",
+        "size": 41344
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "pa3q-S9380ZCU5AYHA",
+      "firmwareVersion": "S9380ZCU5AYHA",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25 Ultra",
+      "model": "SM-S9380",
+      "device": "pa3q",
+      "buildDisplay": "AP3A.240905.015.A2.S9380ZCU5AYHA",
+      "buildFingerprint": "samsung/pa3qzcx/qssi_64:15/AP3A.240905.015.A2/S9380ZCU5AYHA:user/release-keys",
+      "sdk": 35,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "未测试",
+      "exploit": {
+        "url": "grku://payload/pa3q-S9380ZCU5AYHA/cve-2026-43499",
+        "size": 41328
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "pa3q-S938NKSUACZF1",
+      "firmwareVersion": "S938NKSUACZF1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25 Ultra",
+      "model": "SM-S938N",
+      "device": "pa3q",
+      "buildDisplay": "BP4A.251205.006.S938NKSUACZF1",
+      "buildFingerprint": "samsung/pa3qksx/pa3q:16/BP4A.251205.006/S938NKSUACZF1_OKRACZF1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "未测试",
+      "exploit": {
+        "url": "grku://payload/pa3q-S938NKSUACZF1/cve-2026-43499",
+        "size": 41344
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "dm1q-S9110ZCS8FZE3",
+      "firmwareVersion": "S9110ZCS8FZE3",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S23",
+      "model": "SM-S9110",
+      "device": "dm1q",
+      "buildDisplay": "BP4A.251205.006.S9110ZCS8FZE3",
+      "buildFingerprint": "samsung/dm1qzcx/dm1q:16/BP4A.251205.006/S9110ZCS8FZE3:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "实验性",
+      "exploit": {
+        "url": "grku://payload/dm1q-S9110ZCS8FZE3/cve-2026-43499-debug",
+        "size": 66712
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android13-5.15-kdp",
+        "size": 6756208,
+        "kmi": "android13-5.15",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "dm1q-S9110ZCS8FZF5",
+      "firmwareVersion": "S9110ZCS8FZF5",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S23",
+      "model": "SM-S9110",
+      "device": "dm1q",
+      "buildDisplay": "BP4A.251205.006.S9110ZCS8FZF5",
+      "buildFingerprint": "samsung/dm1qzcx/dm1q:16/BP4A.251205.006/S9110ZCS8FZF5:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "实验性",
+      "exploit": {
+        "url": "grku://payload/dm1q-S9110ZCS8FZF5/cve-2026-43499-debug",
+        "size": 66712
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android13-5.15-kdp",
+        "size": 6756208,
+        "kmi": "android13-5.15",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "dm2q-S9160ZCS8FZE3",
+      "firmwareVersion": "S9160ZCS8FZE3",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S23+",
+      "model": "SM-S9160",
+      "device": "dm2q",
+      "buildDisplay": "BP4A.251205.006.S9160ZCS8FZE3",
+      "buildFingerprint": "samsung/dm2qzcx/dm2q:16/BP4A.251205.006/S9160ZCS8FZE3:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "实验性",
+      "exploit": {
+        "url": "grku://payload/dm2q-S9160ZCS8FZE3/cve-2026-43499-debug",
+        "size": 66712
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android13-5.15-kdp",
+        "size": 6756208,
+        "kmi": "android13-5.15",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "q5q-F9460TBS9GZF1",
+      "firmwareVersion": "F9460TBS9GZF1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy Z Fold5",
+      "model": "SM-F9460",
+      "device": "q5q",
+      "buildDisplay": "BP4A.251205.006.F9460TBS9GZF1",
+      "buildFingerprint": "samsung/q5qzcx/q5q:16/BP4A.251205.006/F9460TBS9GZF1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "实验性",
+      "exploit": {
+        "url": "grku://payload/q5q-F9460TBS9GZF1/cve-2026-43499-debug",
+        "size": 66712
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android13-5.15-kdp",
+        "size": 6756208,
+        "kmi": "android13-5.15",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "q5q-F946NKSS6GZF2",
+      "firmwareVersion": "F946NKSS6GZF2",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy Z Fold5",
+      "model": "SM-F946N",
+      "device": "q5q",
+      "buildDisplay": "BP4A.251205.006.F946NKSS6GZF2",
+      "buildFingerprint": "samsung/q5qksx/q5q:16/BP4A.251205.006/F946NKSS6GZF2:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "实验性",
+      "exploit": {
+        "url": "grku://payload/q5q-F946NKSS6GZF2/cve-2026-43499-debug",
+        "size": 66712
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android13-5.15-kdp",
+        "size": 6756208,
+        "kmi": "android13-5.15",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "b6q-F741BXXS4DZG3",
+      "firmwareVersion": "F741BXXS4DZG3",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy Z Flip6",
+      "model": "SM-F741B",
+      "device": "b6q",
+      "buildDisplay": "BP4A.251205.006.F741BXXS4DZG3",
+      "buildFingerprint": "samsung/b6qxxx/b6q:16/BP4A.251205.006/F741BXXS4DZG3:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/b6q-F741BXXS4DZG3/cve-2026-43499",
+        "size": 104128
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android14-6.1-kdp",
+        "size": 4879856,
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      },
+      "aliasOf": "e3q-S928U1UES6DZF2"
+    },
+    {
+      "profileId": "b6q-F741USQS4DZF2",
+      "firmwareVersion": "F741USQS4DZF2",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy Z Flip6",
+      "model": "SM-F741U",
+      "device": "b6q",
+      "buildDisplay": "BP4A.251205.006.F741USQS4DZF2",
+      "buildFingerprint": "samsung/b6qsqw/b6q:16/BP4A.251205.006/F741USQS4DZF2:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/b6q-F741USQS4DZF2/cve-2026-43499",
+        "size": 104128
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android14-6.1-kdp",
+        "size": 4879856,
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      },
+      "aliasOf": "e3q-S928U1UES6DZF2"
+    },
+    {
+      "profileId": "e3q-S928BXXS6DZG1",
+      "firmwareVersion": "S928BXXS6DZG1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S24 Ultra",
+      "model": "SM-S928B",
+      "device": "e3q",
+      "buildDisplay": "BP4A.251205.006.S928BXXS6DZG1",
+      "buildFingerprint": "samsung/e3qxxx/e3q:16/BP4A.251205.006/S928BXXS6DZG1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/e3q-S928BXXS6DZG1/cve-2026-43499",
+        "size": 104128
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android14-6.1-kdp",
+        "size": 4879856,
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      },
+      "aliasOf": "e3q-S9280ZHS6DZF2"
+    },
+    {
+      "profileId": "dm3q-S9180ZCS8FZG1",
+      "firmwareVersion": "S9180ZCS8FZG1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S23 Ultra",
+      "model": "SM-S9180",
+      "device": "dm3q",
+      "buildDisplay": "BP4A.251205.006.S9180ZCS8FZG1",
+      "buildFingerprint": "samsung/dm3qxxx/dm3q:16/BP4A.251205.006/S9180ZCS8FZG1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/dm3q-S9180ZCS8FZG1/cve-2026-43499",
+        "size": 131072
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android13-5.15-kdp",
+        "size": 6756208,
+        "kmi": "android13-5.15",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "dm3q-S9180ZHS8FZG1",
+      "firmwareVersion": "S9180ZHS8FZG1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S23 Ultra",
+      "model": "SM-S9180",
+      "device": "dm3q",
+      "buildDisplay": "BP4A.251205.006.S9180ZHS8FZG1",
+      "buildFingerprint": "samsung/dm3qxxx/dm3q:16/BP4A.251205.006/S9180ZHS8FZG1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/dm3q-S9180ZHS8FZG1/cve-2026-43499",
+        "size": 131072
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android13-5.15-kdp",
+        "size": 6756208,
+        "kmi": "android13-5.15",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "q7q-W9026ZCS8BZG3",
+      "firmwareVersion": "W9026ZCS8BZG3",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy W26",
+      "model": "SM-W9026",
+      "device": "q7q",
+      "buildDisplay": "BP4A.251205.006.W9026ZCS8BZG3",
+      "buildFingerprint": "samsung/q7qxxx/q7q:16/BP4A.251205.006/W9026ZCS8BZG3:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/q7q-W9026ZCS8BZG3/cve-2026-43499",
+        "size": 41430
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "e3q-S9280ZHS6DZG1",
+      "firmwareVersion": "S9280ZHS6DZG1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S24 Ultra",
+      "model": "SM-S9280",
+      "device": "e3q",
+      "buildDisplay": "BP4A.251205.006.S9280ZHS6DZG1",
+      "buildFingerprint": "samsung/e3qzcx/e3q:16/BP4A.251205.006/S9280ZHS6DZG1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/e3q-S9280ZHS6DZG1/cve-2026-43499",
+        "size": 104128
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android14-6.1-kdp",
+        "size": 4879856,
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      },
+      "aliasOf": "e3q-S9280ZHS6DZF2"
+    },
+    {
+      "profileId": "b5q-F7310ZCS9GZF1",
+      "firmwareVersion": "F7310ZCS9GZF1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy Z Flip5",
+      "model": "SM-F7310",
+      "device": "b5q",
+      "buildDisplay": "BP4A.251205.006.F7310ZCS9GZF1",
+      "buildFingerprint": "samsung/b5qxxx/b5q:16/BP4A.251205.006/F7310ZCS9GZF1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/b5q-F7310ZCS9GZF1/cve-2026-43499",
+        "size": 131072
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android13-5.15-kdp",
+        "size": 6756208,
+        "kmi": "android13-5.15",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "b5q-F731NKSS6FZCS",
+      "firmwareVersion": "F731NKSS6FZCS",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy Z Flip5",
+      "model": "SM-F731N",
+      "device": "b5q",
+      "buildDisplay": "BP4A.251205.006.F731NKSS6FZCS",
+      "buildFingerprint": "samsung/b5qxxx/b5q:16/BP4A.251205.006/F731NKSS6FZCS:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/b5q-F731NKSS6FZCS/cve-2026-43499",
+        "size": 131072
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android13-5.15-kdp",
+        "size": 6756208,
+        "kmi": "android13-5.15",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "b5q-F731USQS8GZF1",
+      "firmwareVersion": "F731USQS8GZF1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy Z Flip5",
+      "model": "SM-F731U",
+      "device": "b5q",
+      "buildDisplay": "BP4A.251205.006.F731USQS8GZF1",
+      "buildFingerprint": "samsung/b5qxxx/b5q:16/BP4A.251205.006/F731USQS8GZF1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/b5q-F731USQS8GZF1/cve-2026-43499",
+        "size": 131072
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android13-5.15-kdp",
+        "size": 6756208,
+        "kmi": "android13-5.15",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "e2q-S9260ZCS6DZG1",
+      "firmwareVersion": "S9260ZCS6DZG1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S24+",
+      "model": "SM-S9260",
+      "device": "e2q",
+      "buildDisplay": "BP4A.251205.006.S9260ZCS6DZG1",
+      "buildFingerprint": "samsung/e2qxxx/e2q:16/BP4A.251205.006/S9260ZCS6DZG1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/e2q-S9260ZCS6DZG1/cve-2026-43499",
+        "size": 104214
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android14-6.1-kdp",
+        "size": 4879856,
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      },
+      "aliasOf": "e2q-S9260ZCS6DZF2"
+    },
+    {
+      "profileId": "gts9u-X910ZCU6EZE3",
+      "firmwareVersion": "X910ZCU6EZE3",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy Tab S9 Ultra",
+      "model": "SM-X910",
+      "device": "gts9u",
+      "buildDisplay": "BP4A.251205.006.X910ZCU6EZE3",
+      "buildFingerprint": "samsung/gts9uxxx/gts9u:16/BP4A.251205.006/X910ZCU6EZE3:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/gts9u-X910ZCU6EZE3/cve-2026-43499",
+        "size": 131072
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android13-5.15-kdp",
+        "size": 6756208,
+        "kmi": "android13-5.15",
+        "managerPackage": "me.weishu.kernelsu"
+      },
+      "aliasOf": "dm3q-S9180ZCS8FZE3"
+    },
+    {
+      "profileId": "pa3q-S9380ZHSCCZG1",
+      "firmwareVersion": "S9380ZHSCCZG1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25 Ultra",
+      "model": "SM-S9380",
+      "device": "pa3q",
+      "buildDisplay": "BP4A.251205.006.S9380ZHSCCZG1",
+      "buildFingerprint": "samsung/pa3qzcx/pa3q:16/BP4A.251205.006/S9380ZHSCCZG1:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/pa3q-S9380ZHSCCZG1/cve-2026-43499",
+        "size": 41430
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      },
+      "aliasOf": "pa3q-S9380ZHUBCZF1"
+    },
+    {
+      "profileId": "q7q-F966BXXSBBZG3",
+      "firmwareVersion": "F966BXXSBBZG3",
+      "aliasOf": "q7q-F966BXXUABZF1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy Z Fold7",
+      "model": "SM-F966B",
+      "device": "q7q",
+      "buildDisplay": "BP4A.251205.006.F966BXXSBBZG3",
+      "buildFingerprint": "samsung/q7qxxx/qssi_64:16/BP4A.251205.006/F966BXXSBBZG3:user/release-keys",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "已测试",
+      "exploit": {
+        "url": "grku://payload/q7q-F966BXXSBBZG3/cve-2026-43499",
+        "size": 41344
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "m1q-S942U1UES4AZG3",
+      "firmwareVersion": "S942U1UES4AZG3",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S26",
+      "model": "SM-S942U1",
+      "device": "m1q",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "未测试",
+      "exploit": {
+        "url": "grku://payload/m1q-S942U1UES4AZG3/cve-2026-43499",
+        "size": 289104
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android16-6.12-kdp",
+        "size": 4894816,
+        "kmi": "android16-6.12",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "m3q-S9480ZCS3AZF1",
+      "firmwareVersion": "S9480ZCS3AZF1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S26 Ultra",
+      "model": "SM-S9480",
+      "device": "m3q",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "未测试",
+      "exploit": {
+        "url": "grku://payload/m3q-S9480ZCS3AZF1/cve-2026-43499",
+        "size": 236040
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android16-6.12-kdp",
+        "size": 4894816,
+        "kmi": "android16-6.12",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "m3q-S9480ZCS4AZG1",
+      "firmwareVersion": "S9480ZCS4AZG1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S26 Ultra",
+      "model": "SM-S9480",
+      "device": "m3q",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "未测试",
+      "exploit": {
+        "url": "grku://payload/m3q-S9480ZCS4AZG1/cve-2026-43499",
+        "size": 236088
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android16-6.12-kdp",
+        "size": 4894816,
+        "kmi": "android16-6.12",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "b5q-F7310TBS9GZF1",
+      "firmwareVersion": "F7310TBS9GZF1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy Z Flip5",
+      "model": "SM-F7310",
+      "device": "b5q",
+      "status": "移植待测",
+      "driver": "rms24",
+      "exploit": {
+        "url": "grku://payload/b5q-F7310TBS9GZF1/cve-2026-43499",
+        "size": 89560
+      },
+      "kernelsu": {
+        "kmi": "android13-5.15",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "dm1q-S9110ZCS8FZG1",
+      "firmwareVersion": "S9110ZCS8FZG1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S23",
+      "model": "SM-S9110",
+      "device": "dm1q",
+      "status": "移植待测",
+      "driver": "rms24",
+      "exploit": {
+        "url": "grku://payload/dm1q-S9110ZCS8FZG1/cve-2026-43499",
+        "size": 89560
+      },
+      "kernelsu": {
+        "kmi": "android13-5.15",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "dm2q-S9160ZCS8FZG1",
+      "firmwareVersion": "S9160ZCS8FZG1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S23+",
+      "model": "SM-S9160",
+      "device": "dm2q",
+      "status": "移植待测",
+      "driver": "rms24",
+      "exploit": {
+        "url": "grku://payload/dm2q-S9160ZCS8FZG1/cve-2026-43499",
+        "size": 89560
+      },
+      "kernelsu": {
+        "kmi": "android13-5.15",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "dm2q-S9160ZHS8FZE3",
+      "firmwareVersion": "S9160ZHS8FZE3",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S23+",
+      "model": "SM-S9160",
+      "device": "dm2q",
+      "status": "移植待测",
+      "driver": "rms24",
+      "exploit": {
+        "url": "grku://payload/dm2q-S9160ZHS8FZE3/cve-2026-43499",
+        "size": 89560
+      },
+      "kernelsu": {
+        "kmi": "android13-5.15",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "q5q-F9460ZCS9GZF1",
+      "firmwareVersion": "F9460ZCS9GZF1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy Z Fold5",
+      "model": "SM-F9460",
+      "device": "q5q",
+      "status": "移植待测",
+      "driver": "rms24",
+      "exploit": {
+        "url": "grku://payload/q5q-F9460ZCS9GZF1/cve-2026-43499",
+        "size": 89560
+      },
+      "kernelsu": {
+        "kmi": "android13-5.15",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "b6q-F7410ZCS4DZF2",
+      "firmwareVersion": "F7410ZCS4DZF2",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy Z Flip6",
+      "model": "SM-F7410",
+      "device": "b6q",
+      "status": "移植待测",
+      "driver": "rms24",
+      "exploit": {
+        "url": "grku://payload/b6q-F7410ZCS4DZF2/cve-2026-43499",
+        "size": 99776
+      },
+      "kernelsu": {
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "b6q-F7410ZCS4DZG3",
+      "firmwareVersion": "F7410ZCS4DZG3",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy Z Flip6",
+      "model": "SM-F7410",
+      "device": "b6q",
+      "status": "移植待测",
+      "driver": "rms24",
+      "exploit": {
+        "url": "grku://payload/b6q-F7410ZCS4DZG3/cve-2026-43499",
+        "size": 99776
+      },
+      "kernelsu": {
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "e1q-S9210ZCS6DZE2",
+      "firmwareVersion": "S9210ZCS6DZE2",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S24",
+      "model": "SM-S9210",
+      "device": "e1q",
+      "status": "移植待测",
+      "driver": "rms24",
+      "exploit": {
+        "url": "grku://payload/e1q-S9210ZCS6DZE2/cve-2026-43499",
+        "size": 99776
+      },
+      "kernelsu": {
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "e1q-S9210ZHS6DZG1",
+      "firmwareVersion": "S9210ZHS6DZG1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S24",
+      "model": "SM-S9210",
+      "device": "e1q",
+      "status": "移植待测",
+      "driver": "rms24",
+      "exploit": {
+        "url": "grku://payload/e1q-S9210ZHS6DZG1/cve-2026-43499",
+        "size": 99776
+      },
+      "kernelsu": {
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "e2q-S9260ZCS6DZE2",
+      "firmwareVersion": "S9260ZCS6DZE2",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S24+",
+      "model": "SM-S9260",
+      "device": "e2q",
+      "status": "移植待测",
+      "driver": "rms24",
+      "exploit": {
+        "url": "grku://payload/e2q-S9260ZCS6DZE2/cve-2026-43499",
+        "size": 99776
+      },
+      "kernelsu": {
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "e3q-S9280ZHS4CZA1",
+      "firmwareVersion": "S9280ZHS4CZA1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S24 Ultra",
+      "model": "SM-S9280",
+      "device": "e3q",
+      "buildDisplay": "BP4A.251205.006.S9280ZHS4CZA1",
+      "buildFingerprint": "samsung/e3qzcx/qssi_64:16/BP4A.251205.006/S9280ZHS4CZA1:user/release-keys",
+      "status": "移植待测",
+      "driver": "rms24",
+      "exploit": {
+        "url": "grku://payload/e3q-S9280ZHS4CZA1/cve-2026-43499",
+        "size": 104128
+      },
+      "kernelsu": {
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "e3q-S9280ZCS4CZA1",
+      "firmwareVersion": "S9280ZCS4CZA1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S24 Ultra",
+      "model": "SM-S9280",
+      "device": "e3q",
+      "buildDisplay": "BP4A.251205.006.S9280ZCS4CZA1",
+      "buildFingerprint": "samsung/e3qzcx/qssi_64:16/BP4A.251205.006/S9280ZCS4CZA1:user/release-keys",
+      "status": "移植待测",
+      "driver": "rms24",
+      "exploit": {
+        "url": "grku://payload/e3q-S9280ZCS4CZA1/cve-2026-43499",
+        "size": 104128
+      },
+      "kernelsu": {
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "e3q-S9280ZHS6DZE2",
+      "firmwareVersion": "S9280ZHS6DZE2",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S24 Ultra",
+      "model": "SM-S9280",
+      "device": "e3q",
+      "buildDisplay": "BP4A.251205.006.S9280ZHS6DZE2",
+      "buildFingerprint": "samsung/e3qzcx/qssi_64:16/BP4A.251205.006/S9280ZHS6DZE2:user/release-keys",
+      "status": "移植待测",
+      "driver": "rms24",
+      "exploit": {
+        "url": "grku://payload/e3q-S9280ZHS6DZE2/cve-2026-43499",
+        "size": 104128
+      },
+      "kernelsu": {
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "e3q-S9280ZCS6DZE2",
+      "firmwareVersion": "S9280ZCS6DZE2",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S24 Ultra",
+      "model": "SM-S9280",
+      "device": "e3q",
+      "status": "移植待测",
+      "driver": "rms24",
+      "exploit": {
+        "url": "grku://payload/e3q-S9280ZCS6DZE2/cve-2026-43499",
+        "size": 99792
+      },
+      "kernelsu": {
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "q6q-F9560ZCS4DZG3",
+      "firmwareVersion": "F9560ZCS4DZG3",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy Z Fold6",
+      "model": "SM-F9560",
+      "device": "q6q",
+      "status": "移植待测",
+      "driver": "rms24",
+      "exploit": {
+        "url": "grku://payload/q6q-F9560ZCS4DZG3/cve-2026-43499",
+        "size": 99776
+      },
+      "kernelsu": {
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "q6q-F956USQS4DZG3",
+      "firmwareVersion": "F956USQS4DZG3",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy Z Fold6",
+      "model": "SM-F956U",
+      "device": "q6q",
+      "status": "移植待测",
+      "driver": "rms24",
+      "exploit": {
+        "url": "grku://payload/q6q-F956USQS4DZG3/cve-2026-43499",
+        "size": 99776
+      },
+      "kernelsu": {
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "w9025-W9025ZCS4DZF2",
+      "firmwareVersion": "W9025ZCS4DZF2",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy W25",
+      "model": "W9025",
+      "device": "w9025",
+      "status": "移植待测",
+      "driver": "rms24",
+      "exploit": {
+        "url": "grku://payload/w9025-W9025ZCS4DZF2/cve-2026-43499",
+        "size": 99776
+      },
+      "kernelsu": {
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "w9025-W9025ZCS4DZG3",
+      "firmwareVersion": "W9025ZCS4DZG3",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy W25",
+      "model": "W9025",
+      "device": "w9025",
+      "status": "移植待测",
+      "driver": "rms24",
+      "exploit": {
+        "url": "grku://payload/w9025-W9025ZCS4DZG3/cve-2026-43499",
+        "size": 99776
+      },
+      "kernelsu": {
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "b7q-F7660ZCSBBZG3",
+      "firmwareVersion": "F7660ZCSBBZG3",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy Z Flip7",
+      "model": "SM-F7660",
+      "device": "b7q",
+      "status": "移植待测",
+      "driver": "rms24",
+      "exploit": {
+        "url": "grku://payload/b7q-F7660ZCSBBZG3/cve-2026-43499",
+        "size": 89624
+      },
+      "kernelsu": {
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "psq-S9370ZHS9CZG1",
+      "firmwareVersion": "S9370ZHS9CZG1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25 Edge",
+      "model": "SM-S9370",
+      "device": "psq",
+      "status": "移植待测",
+      "driver": "rms24",
+      "exploit": {
+        "url": "grku://payload/psq-S9370ZHS9CZG1/cve-2026-43499",
+        "size": 89624
+      },
+      "kernelsu": {
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "q7q-W9026ZCU7BZF1",
+      "firmwareVersion": "W9026ZCU7BZF1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy W26",
+      "model": "W9026",
+      "device": "q7q",
+      "status": "移植待测",
+      "driver": "rms24",
+      "exploit": {
+        "url": "grku://payload/q7q-W9026ZCU7BZF1/cve-2026-43499",
+        "size": 89624
+      },
+      "kernelsu": {
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "m1q-S9420ZCS4AZG1",
+      "firmwareVersion": "S9420ZCS4AZG1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S26",
+      "model": "SM-S9420",
+      "device": "m1q",
+      "status": "移植待测",
+      "driver": "rms24",
+      "exploit": {
+        "url": "grku://payload/m1q-S9420ZCS4AZG1/cve-2026-43499",
+        "size": 160104
+      },
+      "kernelsu": {
+        "kmi": "android16-6.12",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "m2q-S9470ZCS4AZG1",
+      "firmwareVersion": "S9470ZCS4AZG1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S26+",
+      "model": "SM-S9470",
+      "device": "m2q",
+      "status": "移植待测",
+      "driver": "rms24",
+      "exploit": {
+        "url": "grku://payload/m2q-S9470ZCS4AZG1/cve-2026-43499",
+        "size": 160104
+      },
+      "kernelsu": {
+        "kmi": "android16-6.12",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "dm3q-S9180ZCS8FZH3",
+      "firmwareVersion": "S9180ZCS8FZH3",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S23 Ultra",
+      "model": "SM-S9180",
+      "device": "dm3q",
+      "buildDisplay": "BP4A.251205.006.S9180ZCS8FZH3",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "移植待测",
+      "exploit": {
+        "url": "grku://payload/dm3q-S9180ZCS8FZH3/cve-2026-43499",
+        "size": 131072
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android13-5.15-kdp",
+        "size": 6756208,
+        "kmi": "android13-5.15",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "dm3q-S9180ZHS8FZH3",
+      "firmwareVersion": "S9180ZHS8FZH3",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S23 Ultra",
+      "model": "SM-S9180",
+      "device": "dm3q",
+      "buildDisplay": "BP4A.251205.006.S9180ZHS8FZH3",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "移植待测",
+      "exploit": {
+        "url": "grku://payload/dm3q-S9180ZHS8FZH3/cve-2026-43499",
+        "size": 131072
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android13-5.15-kdp",
+        "size": 6756208,
+        "kmi": "android13-5.15",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "dm3q-S9180ZCS8FZI1",
+      "firmwareVersion": "S9180ZCS8FZI1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S23 Ultra",
+      "model": "SM-S9180",
+      "device": "dm3q",
+      "buildDisplay": "BP4A.251205.006.S9180ZCS8FZI1",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "移植待测",
+      "exploit": {
+        "url": "grku://payload/dm3q-S9180ZCS8FZI1/cve-2026-43499",
+        "size": 131072
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android13-5.15-kdp",
+        "size": 5106296,
+        "kmi": "android13-5.15",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "dm3q-S9180ZHS8FZI1",
+      "firmwareVersion": "S9180ZHS8FZI1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S23 Ultra",
+      "model": "SM-S9180",
+      "device": "dm3q",
+      "buildDisplay": "BP4A.251205.006.S9180ZHS8FZI1",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "移植待测",
+      "exploit": {
+        "url": "grku://payload/dm3q-S9180ZHS8FZI1/cve-2026-43499",
+        "size": 131072
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android13-5.15-kdp",
+        "size": 5106296,
+        "kmi": "android13-5.15",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "e3q-S9280ZCS6DZH3",
+      "firmwareVersion": "S9280ZCS6DZH3",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S24 Ultra",
+      "model": "SM-S9280",
+      "device": "e3q",
+      "buildDisplay": "BP4A.251205.006.S9280ZCS6DZH3",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "移植待测",
+      "exploit": {
+        "url": "grku://payload/e3q-S9280ZCS6DZH3/cve-2026-43499",
+        "size": 104128
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android14-6.1-kdp",
+        "size": 4879856,
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      },
+      "aliasOf": "e3q-S9280ZCS6DZF2"
+    },
+    {
+      "profileId": "e3q-S928BXXS6DZF2",
+      "firmwareVersion": "S928BXXS6DZF2",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S24 Ultra",
+      "model": "SM-S9280",
+      "device": "e3q",
+      "buildDisplay": "BP4A.251205.006.S928BXXS6DZF2",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "移植待测",
+      "exploit": {
+        "url": "grku://payload/e3q-S928BXXS6DZF2/cve-2026-43499",
+        "size": 104128
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android14-6.1-kdp",
+        "size": 4879856,
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "e3q-S928USQS6DZF2",
+      "firmwareVersion": "S928USQS6DZF2",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S24 Ultra",
+      "model": "SM-S9280",
+      "device": "e3q",
+      "buildDisplay": "BP4A.251205.006.S928USQS6DZF2",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "移植待测",
+      "exploit": {
+        "url": "grku://payload/e3q-S928USQS6DZF2/cve-2026-43499",
+        "size": 104128
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android14-6.1-kdp",
+        "size": 4879856,
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "e3q-S928W-S928USQS6DZF2",
+      "firmwareVersion": "S928W-S928USQS6DZF2",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S24 Ultra",
+      "model": "SM-S9280",
+      "device": "e3q",
+      "buildDisplay": "BP4A.251205.006.S928W-S928USQS6DZF2",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "移植待测",
+      "exploit": {
+        "url": "grku://payload/e3q-S928W-S928USQS6DZF2/cve-2026-43499",
+        "size": 104128
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android14-6.1-kdp",
+        "size": 4879856,
+        "kmi": "android14-6.1",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "S9380ZCSDCZH1",
+      "firmwareVersion": "S9380ZCSDCZH1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25 Ultra",
+      "model": "SM-S9380",
+      "device": "pa3q",
+      "buildDisplay": "BP4A.251205.006.S9380ZCSDCZH1",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "移植待测",
+      "exploit": {
+        "url": "grku://payload/S9380ZCSDCZH1/cve-2026-43499",
+        "size": 105712
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    },
+    {
+      "profileId": "S9380ZHSDCZH1",
+      "firmwareVersion": "S9380ZHSDCZH1",
+      "manufacturer": "samsung",
+      "modelName": "Galaxy S25 Ultra",
+      "model": "SM-S9380",
+      "device": "pa3q",
+      "buildDisplay": "BP4A.251205.006.S9380ZHSDCZH1",
+      "sdk": 36,
+      "abi": "arm64-v8a",
+      "pageSize": 4096,
+      "status": "移植待测",
+      "exploit": {
+        "url": "grku://payload/S9380ZHSDCZH1/cve-2026-43499",
+        "size": 105712
+      },
+      "kernelsu": {
+        "url": "https://ds.jamsg.cn/d/Release/JSG-LLC/GalaxyRootKickUP/KSU/ksud-samsung-android15-6.6-kdp",
+        "size": 6415632,
+        "kmi": "android15-6.6",
+        "managerPackage": "me.weishu.kernelsu"
+      }
+    }
+  ]
+}

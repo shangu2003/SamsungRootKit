@@ -1,0 +1,6 @@
+# ninja log v5
+0	5117	8136818302841121	C:/Users/dalong/WorkBuddy/2026-10-14-18-52-23/srk_v100_release/SamsungRootKit_v1.0.0_source/app/src/main/jni/splicehelper	d86751dae8d3071e
+5117	6645	8136818318098960	CMakeFiles/exp.dir/elf_parser.c.o	a30f11c6b37bf7cd
+5119	6874	8136818320398947	CMakeFiles/exp.dir/exp.c.o	898007102aab1f3f
+5120	8401	8136818335587449	CMakeFiles/exp.dir/libcxx.S.o	741fbfcafccdcde6
+8401	11146	8136818363110215	C:/Users/dalong/WorkBuddy/2026-10-14-18-52-23/srk_v100_release/SamsungRootKit_v1.0.0_source/app/build/intermediates/cxx/RelWithDebInfo/6l4m1v16/obj/arm64-v8a/libexp.so	4cf2e8c30d36493b

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Samsung Root</string>
+    <string name="app_subtitle">离线一键 Root 工具</string>
+
+    <!-- Risk warning -->
+    <string name="risk_title">即将申请临时 ROOT 权限</string>
+    <string name="risk_warning">ROOT 属于系统最高控制权限，获取该权限可能会带来以下风险：</string>
+    <string name="risk_stability">[系统稳定性] 部分系统功能可能异常、卡顿或导致设备重启，甚至成砖。</string>
+    <string name="risk_data">[数据安全] 请勿向不可信的应用授予 ROOT 权限，以防个人隐私泄露或数据丢失。</string>
+    <string name="risk_security">[安全防护] 部分对安全要求较高的应用（如银行、支付、游戏等）可能会限制运行。</string>
+    <string name="risk_special">[特别提醒] root 后不能刷入更改分区的模块，不能改刷面具，会砖！会砖！！会砖！！！</string>
+    <string name="risk_temp">本工具获取的权限仅为临时生效，重启设备后系统将自动恢复默认安全状态。</string>
+    <string name="risk_privacy">本应用不会收集或篡改您的个人隐私数据。</string>
+    <string name="risk_confirm">请确认您已了解上述风险，并自愿承担相关操作后果。</string>
+    <string name="risk_yes">确认，继续</string>
+    <string name="risk_no">取消</string>
+
+    <!-- Shizuku -->
+    <string name="shizuku_not_running">Shizuku 未运行</string>
+    <string name="shizuku_no_permission">Shizuku 未授权</string>
+    <string name="shizuku_start">启动 Shizuku</string>
+    <string name="shizuku_grant">授权</string>
+    <string name="shizuku_instructions">请在 Shizuku 中启动服务并授权本应用。\n\n方式一：通过无线调试启动（Android 11+）\n方式二：通过 USB 连接电脑用 adb 启动</string>
+
+    <!-- Mode -->
+    <string name="mode_auto">自动读取手机型号及版本并匹配</string>
+    <string name="mode_manual">手动选择机型</string>
+
+    <!-- Stages -->
+    <string name="stage_push">推送文件到设备</string>
+    <string name="stage_warmup">预热内核 (%1$d 次)</string>
+    <string name="stage_exploit">触发 Exploit (CVE-2026-43499)</string>
+    <string name="stage_verify">验证 Root 权限</string>
+    <string name="stage_kernelsu">加载 KernelSU</string>
+    <string name="stage_app">安装 KernelSU Manager</string>
+    <string name="stage_done">全部完成</string>
+
+    <!-- Buttons -->
+    <string name="btn_start">开始 Root</string>
+    <string name="btn_retry">重试</string>
+    <string name="btn_close">关闭</string>
+    <string name="btn_copy_log">复制日志</string>
+</resources>

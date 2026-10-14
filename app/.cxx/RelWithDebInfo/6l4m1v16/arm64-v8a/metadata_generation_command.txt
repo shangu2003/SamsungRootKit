@@ -1,0 +1,18 @@
+                        -HC:\Users\dalong\WorkBuddy\2026-10-14-18-52-23\srk_v100_release\SamsungRootKit_v1.0.0_source\app\src\main\jni
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=31
+-DANDROID_PLATFORM=android-31
+-DANDROID_ABI=arm64-v8a
+-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
+-DANDROID_NDK=D:\android-dev\sdk\ndk\27.2.12479018
+-DCMAKE_ANDROID_NDK=D:\android-dev\sdk\ndk\27.2.12479018
+-DCMAKE_TOOLCHAIN_FILE=D:\android-dev\sdk\ndk\27.2.12479018\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=D:\android-dev\sdk\cmake\3.22.1\bin\ninja.exe
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\dalong\WorkBuddy\2026-10-14-18-52-23\srk_v100_release\SamsungRootKit_v1.0.0_source\app\build\intermediates\cxx\RelWithDebInfo\6l4m1v16\obj\arm64-v8a
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=C:\Users\dalong\WorkBuddy\2026-10-14-18-52-23\srk_v100_release\SamsungRootKit_v1.0.0_source\app\build\intermediates\cxx\RelWithDebInfo\6l4m1v16\obj\arm64-v8a
+-DCMAKE_BUILD_TYPE=RelWithDebInfo
+-BC:\Users\dalong\WorkBuddy\2026-10-14-18-52-23\srk_v100_release\SamsungRootKit_v1.0.0_source\app\.cxx\RelWithDebInfo\6l4m1v16\arm64-v8a
+-GNinja
+                        Build command args: []
+                        Version: 2

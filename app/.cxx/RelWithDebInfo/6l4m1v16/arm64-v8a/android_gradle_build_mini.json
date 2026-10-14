@@ -1,0 +1,32 @@
+{
+  "buildFiles": [
+    "C:\\Users\\dalong\\WorkBuddy\\2026-10-14-18-52-23\\srk_v100_release\\SamsungRootKit_v1.0.0_source\\app\\src\\main\\jni\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "D:\\android-dev\\sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\dalong\\WorkBuddy\\2026-10-14-18-52-23\\srk_v100_release\\SamsungRootKit_v1.0.0_source\\app\\.cxx\\RelWithDebInfo\\6l4m1v16\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "D:\\android-dev\\sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\dalong\\WorkBuddy\\2026-10-14-18-52-23\\srk_v100_release\\SamsungRootKit_v1.0.0_source\\app\\.cxx\\RelWithDebInfo\\6l4m1v16\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "splicehelper_bin::@6890427a1f51a3e7e1df": {
+      "artifactName": "splicehelper_bin",
+      "abi": "arm64-v8a",
+      "runtimeFiles": []
+    },
+    "exp::@6890427a1f51a3e7e1df": {
+      "artifactName": "exp",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\dalong\\WorkBuddy\\2026-10-14-18-52-23\\srk_v100_release\\SamsungRootKit_v1.0.0_source\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\6l4m1v16\\obj\\arm64-v8a\\libexp.so",
+      "runtimeFiles": []
+    }
+  }
+}

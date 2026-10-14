@@ -1,0 +1,1 @@
+C:\Users\dalong\WorkBuddy\2026-10-14-18-52-23\srk_v100_release\SamsungRootKit_v1.0.0_source\app\src\main\jni\CMakeLists.txt
