@@ -1,4 +1,0 @@
-C:/Users/dalong/WorkBuddy/2026-10-14-18-52-23/srk_v100_release/SamsungRootKit_v1.0.0_source/app/.cxx/RelWithDebInfo/6l4m1v16/arm64-v8a/CMakeFiles/splicehelper_bin.dir
-C:/Users/dalong/WorkBuddy/2026-10-14-18-52-23/srk_v100_release/SamsungRootKit_v1.0.0_source/app/.cxx/RelWithDebInfo/6l4m1v16/arm64-v8a/CMakeFiles/exp.dir
-C:/Users/dalong/WorkBuddy/2026-10-14-18-52-23/srk_v100_release/SamsungRootKit_v1.0.0_source/app/.cxx/RelWithDebInfo/6l4m1v16/arm64-v8a/CMakeFiles/edit_cache.dir
-C:/Users/dalong/WorkBuddy/2026-10-14-18-52-23/srk_v100_release/SamsungRootKit_v1.0.0_source/app/.cxx/RelWithDebInfo/6l4m1v16/arm64-v8a/CMakeFiles/rebuild_cache.dir
