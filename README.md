@@ -1,11 +1,11 @@
 # Samsung Root Kit — 离线版 Android App（DF 链首选 · SRK 链回退 · DFE 持久化）
 
-**版本 1.0.0**（versionCode 100，2026-10-14 GitHub 首发）· 包名 `com.samsung.root.kit` · ABI 仅 `arm64-v8a` · minSdk 31 / targetSdk 35 / compileSdk 37
+**版本 1.0.0**（versionCode 100，2026-10-14 GitHub 首发）·
 
-完全离线的 Samsung Galaxy 临时 Root 工具箱：**无需电脑、无需解锁 Bootloader**，在手机上独立完成 Root。
+完全离线的 Samsung Galaxy 临时 Root 工具箱。
 内置两套互相独立的提权链路 —— **DF 链首选、SRK 链自动回退**；DF 链为快速提权，仅 SRK 链成功后进入 **DFReroot（DFE）持久化配置**。
 
-> ⚠️ 仅供学习与安全研究使用，会导致 KNOX 熔断、保修失效，请先完整阅读文末免责声明。
+> ⚠️ 仅供学习与安全研究使用，可能会导致 KNOX 熔断、保修失效，请先完整阅读文末免责声明。
 
 ---
 
@@ -31,7 +31,6 @@
    │  · 不在列表内的固件，可经 SAF 自行导入 payload + root helper
    │
    └─ 成功 ──▶ ③ 引导进入 DFReroot（DFE）持久化配置
-              （开机自启 / 软重启续跑 / 管理器变体管理）
 ```
 
 两条链均提供 **KernelSU / KernelSU-Next** 两个管理器变体，选定后重启续跑沿用同一变体，不会串版本：
@@ -52,10 +51,8 @@
 - **自动机型匹配**：读取 `ro.build.fingerprint` 自动匹配对应 payload；KMI 自动检测选择 root helper
 - **固件级 payload 适配**：SRK 链 payload 按固件逐条适配（94 条配置 / 85 份 payload），自选固件支持 SAF 导入
 - **资产完整性校验**：推送前按内置 `SHA256SUMS.txt` 逐文件校验 SHA-256，损坏或被替换的二进制一律拒绝执行
-- **断点续跑**：exploit 中途设备重启后，重新打开 App 自动读取持久化状态续跑，并沿用原变体
 - **3-strike 失败保护**：DF 链连续失败 3 次自动关停总开关并回退 SRK 链，防止无限重启循环；成功一次即清零计数，OTA 升级后自动解锁
 - **提权耗时统计**：结果页显示「400 次内核预热结束 → root 提权成功」的总耗时
-- **安全护栏**：release 包签名自校验（防二次打包）；检测到调试器 / ptrace / Frida 等动态分析迹象时中止提权流程
 
 ---
 
@@ -89,60 +86,6 @@
 
 > DF 链不依赖 Shizuku；SRK 链（含自选 payload 导入）需要 Shizuku 就绪。
 
-## 构建方法
-
-### 前提条件
-
-- **JDK 17**
-- **Android SDK**：`platforms;android-37.0` + `build-tools;37.0.0`
-  （平台包名**带次版本号 `.0`**；`platforms;android-37` 不存在，sdkmanager 会报 "Failed to find package"。
-  归档为 `platform-37.0_r02.zip`。另注：build-tools 的 zip 顶层目录名与版本号无关
-  —— `37.0.0` 的包解出的是 `android-37.0/`，落位时必须重命名为 `build-tools/37.0.0/`。）
-- **NDK `27.2.12479018`**（必须与预编译 ko 的构建环境一致，否则 `__ANDROID_API__` / 内联汇编 / max-page-size 行为漂移，破坏字节级一致性）
-- Gradle 使用仓库自带的 wrapper（9.4.1）；首次构建需联网拉取依赖
-
-### Release 签名（必需）
-
-release 构建会读取工程根目录的 `keystore.properties`（模板见 `keystore.properties.example`）：
-
-```properties
-storeFile=srk-release.jks
-storePassword=********
-keyAlias=srk
-keyPassword=********
-```
-
-把 `srk-release.jks` 与 `keystore.properties` 一并放到工程根目录即可。
-
-> ⚠️ 若缺少 `keystore.properties`，构建会**回退用本机 debug 密钥签名**。这样打出来的包不是官方签名，提权路径上的 `SignatureGuard` 会直接拒绝执行（日志显示「安装包签名异常，已中止」）。
-
-### 构建
-
-```bash
-export JAVA_HOME=/path/to/jdk-17
-export ANDROID_HOME=/path/to/android-sdk
-./gradlew :app:assembleRelease
-```
-
-Windows（PowerShell）：
-
-```powershell
-$env:JAVA_HOME="<JDK17 路径>"
-$env:GRADLE_USER_HOME="<Gradle 缓存路径>"
-.\gradlew.bat :app:assembleRelease
-```
-
-### 输出
-
-```
-app/build/outputs/apk/release/SamsungRootKit_v1.0.0.apk    （约 45 MB，含全部离线资源）
-```
-
-安装到手机：
-
-```bash
-adb install -r app/build/outputs/apk/release/SamsungRootKit_v1.0.0.apk
-```
 
 ## 工作原理
 
@@ -188,7 +131,7 @@ adb install -r app/build/outputs/apk/release/SamsungRootKit_v1.0.0.apk
 10. **验证 Root** → `uid=0(root)` 确认，并统计提权耗时
 11. **late-load 加载内核模块** → 先 **staging ksud**，再单次 `--late-load`（不重试）
 12. **安装 Manager** → `pm install` 对应变体的 Manager APK（非关键路径，失败不影响 root 结果）
-13. **进入持久化配置** → root 成功后引导配置 DFReroot 持久化（开机自启 / 软重启 / 变体）
+13. **进入持久化配置** → root 成功后引导配置 DFReroot 持久化（开机自启 / 自动软重启 / 变体）
 
 ## 内置资源
 
@@ -284,7 +227,7 @@ chmod 755 /data/local/tmp/.ksud-stage
 | Manager APK | `tools/ksu_tools/KernelSU_Manager_*.apk` | `tools/ksu_next_tools/KernelSU_Next_*.apk` |
 | 内核模块判据 | `kernelsu` / `samsung_kernelsu` / `ksu` | `kernelsu_next`（优先判定） |
 
-> root helper 按「**系列（KMI）+ 变体**」共享存放；其中 KernelSU-Next 的 S24 / S25 / S26 root helper 与 KernelSU 版**内容相同**（同哈希，按变体各自独立命名存放），只有 S23 的 Next root 是独立构建。
+> root helper 按「**系列（KMI）+ 变体**」共享存放；其中 KernelSU-Next 的 S24 / S25 / S26 root helper 与 KernelSU 版**内容相同**（同哈希，按变体各自独立命名存放）。
 
 ### Shizuku 权限
 
@@ -302,10 +245,6 @@ chmod 755 /data/local/tmp/.ksud-stage
 - 分块通过 `cat > '<remote>'` 写入设备（首块 `>`，后续 `>>` 追加）
 - 无 base64 编码开销，传输效率高
 
-### 持久化状态与续跑
-
-exploit 阶段会写入 `filesDir/rootkit_state.json`（phase / model / ksud / **variant**）。设备重启后重新打开 App 时按该状态自动续跑，并恢复为**同一变体**。`variant` 字段是防止串版本的关键。
-
 ## 安全说明
 
 - Root 是**内存态**：重启后失效，重新运行 App 即可再次获取（DF 链的开机自启可在每次开机自动重新提权）
@@ -318,8 +257,8 @@ exploit 阶段会写入 `filesDir/rootkit_state.json`（phase / model / ksud / *
 
 本项目基于以下开源工作，特此致谢（与 APP「关于」页所列一致）：
 
-- [KernelSU](https://kernelsu.org/) —— 内核级 ROOT 方案（本项目同时适配 KernelSU 与 KernelSU-Next）
-- [Root-My-Galaxy by @BuSung-dev](https://github.com/BuSung-dev/Root-My-Galaxy) —— UI 设计参考
+- [KernelSU](https://kernelsu.org/) —— 内核级 ROOT 方案
+- [KernelSU-Next](https://github.com/KernelSU-Next/KernelSU-Next) —— 内核级 ROOT 方案
 - [DFRoot by @diabl0w](https://github.com/diabl0w/DFRoot) —— DF 链提权实现参考
 - [DFReroot by @polygraphene](https://github.com/polygraphene/DFReroot) —— 持久化（DFE）方案，本项目内嵌其 **v2.2.0**
 
@@ -329,7 +268,7 @@ Root 所用的 payload 文件多数收集于网络，感谢原作者作出的贡
 
 仅供学习和研究使用。使用本工具可能导致：
 
-- 设备 KNOX 熔断
+- 设备 KNOX 可能熔断
 - 保修失效
 - 部分应用（银行、支付等）无法运行
 - 设备不稳定或变砖
